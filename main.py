@@ -8,10 +8,10 @@ countdown = None
 start_time = 0
 end_time = 0
 r_start = [
-    'It was up to her to investigate how the accident had really happened',
+    "It was up to her to investigate how the accident had really happened",
     "He had to find out what happened last night",
     "She wanted to find out what happened to her father back then",
-    'After he heard the news, He hurried back',
+    "After he heard the news, He hurried back",
     "They'd only been apart for a week and already he had a new lover hanging off his arm"
 ]
 
@@ -72,7 +72,7 @@ def calculate_time():
 window = Tk()
 window.title("Writer Block Exercise")
 window.minsize(width=500, height=200)
-window.config(width=51, height=15, padx=75, pady=75)
+window.config(width=51, height=15, padx=25, pady=25)
 
 label = Label(text='Welcome to the Random Prompt Generator!', font=("Helvetica", 20))
 label.grid(column=1, row=0, columnspan=2)
